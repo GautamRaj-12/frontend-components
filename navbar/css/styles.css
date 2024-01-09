@@ -3,3 +3,37 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+    background-color: rgb(47, 29, 94);
+}
+.navbar{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.navbar__list{
+    display: flex;
+    gap:3rem;
+}
+.hamburger__cross{
+    display: none;
+    position: relative;
+}
+.hamburger__cross i{
+    cursor: pointer;
+    font-size: 2rem;
+}
